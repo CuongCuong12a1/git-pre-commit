@@ -6,7 +6,11 @@ export const Banner = ({route,navigation}:any) => {
     const { itemId, otherParam } = route.params;
     const [postText, setPostText] = React.useState('');
     return (
-    
+        // aaaaaaaaaaaaaaaaaaaa
+
+
+
+        
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Banner cc</Text>
         <Button title="Go back" onPress={() => navigation.goBack()} />
